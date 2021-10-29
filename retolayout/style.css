@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    background-color: sandybrown;
+}
+.content{
+    background-color: black;
+}
+.section{
+    /* display: inline-block; */
+    display: flex;
+}
+.sidebar{
+    margin: 8px;
+    background-color: plum;
+    height: 100px;
+    width: 150px;
+    border-radius: 7px;
+
+}
+.cuerpo{
+    background-color: salmon;
+    margin: 0 auto;
+    width: 100%;
+}
+img{
+    width: 20%;
+}
+ul{
+    list-style: none;
+    position: absolute;
+    right: 0;
+}
+li{
+    display: inline-block;
+    margin: 10px;
+
+}
